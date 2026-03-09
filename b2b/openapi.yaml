@@ -1,0 +1,18 @@
+openapi: 3.0.3
+info:
+  title: NeoMarket B2B (Seller Cabinet)
+  version: "1.0"
+  description: |
+    Кабинет продавца. Reference-модуль — базовые эндпоинты описаны в брифинге.
+    Студенты дополняют: события B2B↔Moderation, эндпоинты для B2C.
+
+paths: {}
+# Известные эндпоинты (из брифинга):
+#   POST   /api/v1/products          — Создать товар
+#   GET    /api/v1/products/{id}     — Получить товар со всеми SKU
+#   PUT    /api/v1/products/{id}     — Изменить товар
+#   POST   /api/v1/skus              — Создать SKU
+#   PUT    /api/v1/skus              — Изменить SKU
+#   POST   /api/v1/invoices          — Создать накладную
+#   POST   /api/v1/invoices/accept   — Принять накладную (склад)
+#   ???    ???                        — Эндпоинты для B2C (каталог, резервирование)

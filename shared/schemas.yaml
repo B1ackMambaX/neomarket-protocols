@@ -1,0 +1,9 @@
+openapi: 3.0.3
+info:
+  title: NeoMarket Shared Schemas
+  version: "1.0"
+  description: Общие типы данных, переиспользуемые между модулями
+
+components:
+  schemas: {}
+  # Product, SKU, Category, Characteristic — будут добавлены по мере проектирования

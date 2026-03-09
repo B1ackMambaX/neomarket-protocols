@@ -1,0 +1,14 @@
+openapi: 3.0.3
+info:
+  title: NeoMarket Moderation
+  version: "1.0"
+  description: |
+    Модуль модерации товаров. Reference-модуль — базовые эндпоинты описаны в брифинге.
+    Студенты дополняют: формат событий B2B→Moderation и Moderation→B2B.
+
+paths: {}
+# Известные эндпоинты (из брифинга):
+#   POST   /api/v1/product-moderation/get-next   — Следующая карточка из очереди
+#   POST   /api/v1/products/{id}/approve          — Одобрить
+#   POST   /api/v1/products/{id}/decline           — Заблокировать (с причиной)
+#   GET    /api/v1/product-blocking-reasons        — Список причин блокировки
